@@ -1,0 +1,48 @@
+send Request 
+GET http://localhost:3030/api/users/
+###
+
+GET http://localhost:3000/api/users/ 
+
+###
+
+GET http://localhost:3000/api/users/5 
+
+###
+
+POST http://localhost:3000/api/users/
+Content-Type: application/json 
+
+{
+  "id": 5,
+  "first_name": "Josephine",
+  "last_name": "Darakjy",
+  "company_name": "Chanay, Jeffrey A Esq",
+  "city": "Brighton",
+  "state": "MI",
+  "zip": 48116,
+  "email": "josephine_darakjy@darakjy.org",
+  "web": "http://www.chanayjeffreyaesq.com",
+  "age": 48
+}
+
+####
+
+PUT http://localhost:3000/api/users/5
+Content-Type: application/json 
+
+{
+    "first_name": "Josephine",
+  "last_name": "Darakjy",
+  "age": 48
+}
+
+####
+
+DELETE http://localhost:3000/api/users/5 
+
+###
+
+DELETE http://localhost:3000/
+
+###

@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Create REST APIs using Python (Flask, Django, any other web framework of your choice) for managing the user’s data.  \r You can use database(i.e SQL, NOSQL) of your choice to store the data.  \r Take sample data from [here](https://datapeace-storage.s3-us-west-2.amazonaws.com/dummy_data/users.json).",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/91756/backend-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/91756/backend-assignment/issues"
+  },
+  "homepage": "https://github.com/91756/backend-assignment#readme",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
+  }
+}
